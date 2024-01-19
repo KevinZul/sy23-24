@@ -50,9 +50,9 @@ Partial Class Form1
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 30)
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 28)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 30)
+        Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -152,7 +152,7 @@ Partial Class Form1
         Me.MenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SoccerToolStripMenuItem})
         Me.MenuStrip2.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip2.Name = "MenuStrip2"
-        Me.MenuStrip2.Size = New System.Drawing.Size(800, 30)
+        Me.MenuStrip2.Size = New System.Drawing.Size(800, 28)
         Me.MenuStrip2.TabIndex = 12
         Me.MenuStrip2.Text = "MenuStrip2"
         '
@@ -160,7 +160,7 @@ Partial Class Form1
         '
         Me.SoccerToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem, Me.SaveToolStripMenuItem})
         Me.SoccerToolStripMenuItem.Name = "SoccerToolStripMenuItem"
-        Me.SoccerToolStripMenuItem.Size = New System.Drawing.Size(107, 26)
+        Me.SoccerToolStripMenuItem.Size = New System.Drawing.Size(107, 24)
         Me.SoccerToolStripMenuItem.Text = "Soccer Clubs"
         '
         'NewToolStripMenuItem
