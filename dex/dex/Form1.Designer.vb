@@ -69,14 +69,14 @@ Partial Class Form1
         '
         Me.Field1.Location = New System.Drawing.Point(372, 153)
         Me.Field1.Name = "Field1"
-        Me.Field1.Size = New System.Drawing.Size(100, 22)
+        Me.Field1.Size = New System.Drawing.Size(205, 22)
         Me.Field1.TabIndex = 2
         '
         'Field2
         '
         Me.Field2.Location = New System.Drawing.Point(372, 181)
         Me.Field2.Name = "Field2"
-        Me.Field2.Size = New System.Drawing.Size(100, 22)
+        Me.Field2.Size = New System.Drawing.Size(205, 22)
         Me.Field2.TabIndex = 4
         '
         'Label2
@@ -92,7 +92,7 @@ Partial Class Form1
         '
         Me.Field3.Location = New System.Drawing.Point(372, 209)
         Me.Field3.Name = "Field3"
-        Me.Field3.Size = New System.Drawing.Size(100, 22)
+        Me.Field3.Size = New System.Drawing.Size(205, 22)
         Me.Field3.TabIndex = 6
         '
         'Label3
@@ -108,7 +108,7 @@ Partial Class Form1
         '
         Me.Field4.Location = New System.Drawing.Point(372, 237)
         Me.Field4.Name = "Field4"
-        Me.Field4.Size = New System.Drawing.Size(100, 22)
+        Me.Field4.Size = New System.Drawing.Size(205, 22)
         Me.Field4.TabIndex = 8
         '
         'Label4
@@ -124,7 +124,7 @@ Partial Class Form1
         '
         Me.Field5.Location = New System.Drawing.Point(372, 265)
         Me.Field5.Name = "Field5"
-        Me.Field5.Size = New System.Drawing.Size(100, 22)
+        Me.Field5.Size = New System.Drawing.Size(205, 22)
         Me.Field5.TabIndex = 10
         '
         'Label5
