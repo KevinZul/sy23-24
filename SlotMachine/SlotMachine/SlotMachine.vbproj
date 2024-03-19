@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6B7D016C-A4AE-4F62-8FE4-2A5A5F9AFA7A}</ProjectGuid>
+    <ProjectGuid>{315C5246-A872-4089-9BEE-0C1F0432667E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Vending_Machine.My.MyApplication</StartupObject>
-    <RootNamespace>Vending_Machine</RootNamespace>
-    <AssemblyName>Vending Machine</AssemblyName>
+    <StartupObject>SlotMachine.My.MyApplication</StartupObject>
+    <RootNamespace>SlotMachine</RootNamespace>
+    <AssemblyName>SlotMachine</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Vending Machine.xml</DocumentationFile>
+    <DocumentationFile>SlotMachine.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Vending Machine.xml</DocumentationFile>
+    <DocumentationFile>SlotMachine.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -73,12 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CoinSlot.vb" />
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Coinslot.vb" />
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -96,10 +95,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="ProductControl1.Designer.vb">
-      <DependentUpon>ProductControl1.vb</DependentUpon>
+    <Compile Include="ReelControl1.Designer.vb">
+      <DependentUpon>ReelControl1.vb</DependentUpon>
     </Compile>
-    <Compile Include="ProductControl1.vb">
+    <Compile Include="ReelControl1.vb">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
@@ -113,8 +112,8 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductControl1.resx">
-      <DependentUpon>ProductControl1.vb</DependentUpon>
+    <EmbeddedResource Include="ReelControl1.resx">
+      <DependentUpon>ReelControl1.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -130,52 +129,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\download %285%29.jfif" />
+    <None Include="Resources\download %2822%29.jfif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\download %286%29.jfif" />
+    <None Include="Resources\download %2823%29.jfif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\download %287%29.jfif" />
+    <None Include="Resources\download %2824%29.jfif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\download %288%29.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %289%29.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\images.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %2811%29.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %2810%29.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %2812%29.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %2813%29.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %2814%29.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %2815%29.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %2816%29.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %2817%29.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %2818%29.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %2819%29.jfif" />
+    <None Include="Resources\download %2825%29.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
